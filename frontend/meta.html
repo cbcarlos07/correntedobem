@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - Regna Bootstrap Template</title>
+  <title>Meta | Corrente do Bem</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -33,6 +33,13 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    .vl {
+      border-left: 2px solid #595959;
+      height: 120px;
+      padding-bottom: 12px;
+    }
+  </style>
 </head>
 
 <body>
@@ -42,36 +49,14 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+        <a href="/"><img src="assets/img/logo.png" alt=""></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact Us</a></li>
+         
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -84,10 +69,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2 class="title"></h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
+            <li><a href="/">Home</a></li>
+            <li>Meta</li>
           </ol>
         </div>
 
@@ -95,10 +80,26 @@
     </section><!-- End Breadcrumbs Section -->
 
     <section class="inner-page pt-4">
-      <div class="container">
-        <p>
-          Example inner page template
-        </p>
+      	<div class="container">
+        	<div class="row">
+
+          	<div class="col-lg-8">
+              	<div class="col-md-12 logo">
+
+              	</div>
+				<div class="row">
+					<div class="col-md-12">
+					  <p class="description"></p>
+					</div>
+				</div>  
+
+          	</div>
+          	<div class="col-lg-4 text-right" >
+            	<div class="img"></div>
+          	</div>
+        </div>
+          
+        
       </div>
     </section>
 
@@ -146,6 +147,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+  <script src="assets/js/base.js"></script>
+  <script src="assets/js/menu.js"></script>
+  <script src="assets/js/meta.js"></script>
 
 </body>
 
